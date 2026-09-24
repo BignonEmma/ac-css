@@ -732,6 +732,7 @@
    justify-content: space-between;
    padding: 11px 0 10px;
    border-top: var(--line);
+   gap: 16px;
 }
 .fp-id-stat:last-child {
    padding-bottom: 0;
@@ -750,6 +751,7 @@
 .fp-id-stat span:last-child {
    font-size: 13px;
    color: var(--text);
+   text-align: right;
 }
 .fp-section {
    margin-bottom: 40px;
@@ -809,9 +811,8 @@
 .fp-text--life {
    max-height: 308px;
 }
-.fp--silencis .fp-panel[data-panel="life"] .fp-content {
-   display: flex;
-   flex-direction: column;
+.fp--silencis .fp-text--life {
+   height: 308px;
    justify-content: center;
 }
 .fp-section--narrow {
