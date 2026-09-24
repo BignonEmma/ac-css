@@ -324,8 +324,7 @@
    justify-content: center;
    width: 32px;
 }
-.fp--silencis .fp-clan-name,
-.fp--silencis .fp-clan-nation {
+.fp--silencis .fp-clan-name {
    display: none;
 }
 .fp--silencis .fp-clan-badge::before {
@@ -814,6 +813,9 @@
 .fp--silencis .fp-text--life {
    height: 308px;
    justify-content: center;
+}
+.fp--silencis .fp-panel[data-panel="life"] .fp-section {
+   margin-bottom: 0;
 }
 .fp-section--narrow {
    width: 566px;
