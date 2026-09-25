@@ -95,7 +95,7 @@
    color: var(--text-faint);
 }
 .vt-admin-intro {
-   font-size: 15px;
+   font-size: var(--n-size);
    line-height: var(--line-h);
    color: var(--text-muted);
    text-align: justify;
@@ -136,7 +136,7 @@
    margin: 0;
 }
 .vt-section-tag {
-   font-size: 10px;
+   font-size: var(--xs-size);
    font-weight: 600;
    letter-spacing: 3px;
    text-transform: uppercase;
@@ -157,7 +157,7 @@
 }
 .vt-textzone-t1-body p {
    margin: 0;
-   font-size: 16px;
+   font-size: var(--l-size);
    line-height: var(--line-h);
    color: var(--text);
    text-align: justify;
@@ -205,7 +205,7 @@
 }
 .vt-textzone-t2 p {
    margin: 0 0 16px;
-   font-size: 16px;
+   font-size: var(--n-size);
    line-height: var(--line-h);
    color: var(--text-muted);
    text-align: justify;
@@ -225,7 +225,7 @@
 }
 .vt-textzone-t3 p {
    margin: 0;
-   font-size: 16px;
+   font-size: var(--l-size);
    line-height: var(--line-h);
    color: var(--text-muted);
    text-align: justify;
