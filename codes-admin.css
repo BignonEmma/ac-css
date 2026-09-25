@@ -1035,3 +1035,22 @@
 	display: block;
 	filter: var(--filter-2);
 }
+
+
+/* ============================================================
+   MODULE : SEPARATEUR T2
+   ============================================================ */
+
+.vt-separator-t2 {
+	display: flex;
+	gap: 24px;
+	width: 100%;
+}
+
+.vt-separator-t2-block {
+	flex: 1;
+	min-width: 0;
+	height: 52px;
+	border: var(--line);
+	border-radius: 2px;
+}
