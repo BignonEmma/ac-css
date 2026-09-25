@@ -1001,3 +1001,37 @@
 	text-transform: uppercase;
 	color: var(--accent-1);
 }
+
+
+/* ============================================================
+   MODULE : SEPARATEUR T1
+   ============================================================ */
+
+.vt-separator-t1 {
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.vt-separator-t1-photo {
+	flex: 1;
+	min-width: 0;
+	height: 120px;
+	border: var(--line);
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.vt-separator-t1-photo--fixed {
+	flex: none;
+	width: 179px;
+}
+
+.vt-separator-t1-photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	filter: var(--filter-2);
+}
