@@ -530,7 +530,7 @@
 
 .vt-infos-t2-card-text {
 	margin: 0;
-	font-size: var(--l-size);
+	font-size: var(--n-size);
 	line-height: var(--line-h);
 	color: var(--text-muted);
 	text-align: justify;
