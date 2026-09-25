@@ -24,13 +24,12 @@
 }
 .vt-admin-avatar-star {
    position: absolute;
-   top: 0;
+   top: -1px;
    left: 50%;
    transform: translate(-50%, -50%);
    font-family: var(--font);
    font-weight: 700;
    font-size: 11px;
-   letter-spacing: 1.3px;
    text-transform: uppercase;
    color: var(--accent-1);
    font-variation-settings: var(--font-setting);
@@ -91,7 +90,7 @@
    color: var(--text-faint);
 }
 .vt-admin-intro {
-   font-size: 16px;
+   font-size: 15px;
    line-height: var(--line-h);
    color: var(--text-muted);
    text-align: justify;
