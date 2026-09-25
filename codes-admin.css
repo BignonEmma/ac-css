@@ -794,24 +794,33 @@
 }
 
 .vt-tarot-card {
+	position: relative;
 	perspective: 1200px;
 	flex: 1;
 	min-width: 0;
 	height: 389px;
 }
 
+.vt-tarot-toggle {
+	position: absolute;
+	inset: 0;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 2;
+}
+
 .vt-tarot-inner {
 	position: relative;
+	z-index: 1;
 	display: block;
 	width: 100%;
 	height: 100%;
-	cursor: pointer;
 	transform-style: preserve-3d;
 	transition: transform 0.6s;
-	outline: none;
 }
 
-.vt-tarot-inner:focus {
+.vt-tarot-toggle:checked ~ .vt-tarot-inner {
 	transform: rotateY(180deg);
 }
 
