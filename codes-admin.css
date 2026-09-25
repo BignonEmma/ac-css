@@ -800,10 +800,6 @@
 	height: 389px;
 }
 
-.vt-tarot-toggle {
-	display: none;
-}
-
 .vt-tarot-inner {
 	position: relative;
 	display: block;
@@ -812,9 +808,10 @@
 	cursor: pointer;
 	transform-style: preserve-3d;
 	transition: transform 0.6s;
+	outline: none;
 }
 
-.vt-tarot-toggle:checked ~ .vt-tarot-inner {
+.vt-tarot-inner:focus {
 	transform: rotateY(180deg);
 }
 
