@@ -241,7 +241,7 @@
       color-mix(in srgb, var(--accent-2) 6%, transparent),
       color-mix(in srgb, var(--bg-2) 6%, transparent)
    );
-   transform: rotate(1deg);
+   transform: rotate(-1deg);
    transition: transform 0.3s ease;
 }
 .vt-important:hover {
