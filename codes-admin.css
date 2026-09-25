@@ -722,3 +722,62 @@
 	text-align: justify;
 	hyphens: auto;
 }
+
+
+/* ============================================================
+   MODULE : ARTICLE LIST
+   ============================================================ */
+
+.vt-article-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 100%;
+}
+
+.vt-article-item {
+	display: flex;
+	gap: 16px;
+	align-items: flex-start;
+	padding: 24px;
+	border-right: var(--line);
+	border-bottom: var(--line);
+}
+
+.vt-article-item:nth-child(3n) {
+	border-right: none;
+}
+
+.vt-article-item:nth-last-child(-n+3) {
+	border-bottom: none;
+}
+
+.vt-article-number {
+	font-family: var(--font-2);
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1;
+	color: var(--accent-3);
+	flex-shrink: 0;
+}
+
+.vt-article-body {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	min-width: 0;
+}
+
+.vt-article-title {
+	margin: 0;
+	font-size: var(--n-size);
+	font-weight: 600;
+	color: var(--text);
+}
+
+.vt-article-text {
+	margin: 0;
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--text-muted);
+	line-height: var(--line-h);
+}
