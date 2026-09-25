@@ -788,7 +788,8 @@
    ============================================================ */
 
 .vt-tarot-row {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	gap: 24px;
 	width: 100%;
 }
@@ -796,8 +797,6 @@
 .vt-tarot-card {
 	position: relative;
 	perspective: 1200px;
-	flex: 1;
-	min-width: 0;
 	height: 389px;
 }
 
