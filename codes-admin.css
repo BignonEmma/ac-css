@@ -1,3 +1,7 @@
+.vt-admin-post {
+   width: 100%;
+   max-width: 811px;
+}
 .vt-admin-header {
    display: flex;
 }
@@ -21,6 +25,7 @@
    height: 100%;
    display: block;
    object-fit: cover;
+   filter: var(--filter-2);
 }
 .vt-admin-avatar-star {
    position: absolute;
@@ -99,6 +104,9 @@
 }
 .vt-section {
    padding-top: 48px;
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
 }
 .vt-section-header {
    display: flex;
@@ -185,4 +193,5 @@
    height: 100%;
    object-fit: cover;
    display: block;
+   filter: var(--filter-2);
 }
