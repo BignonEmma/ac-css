@@ -553,6 +553,24 @@
 	filter: var(--filter-2);
 }
 
+.vt-textzone-t3 ul {
+	list-style: disc outside;
+	margin: 0;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.vt-textzone-t3 li {
+	line-height: var(--line-h);
+	color: var(--text-muted);
+}
+
+.vt-textzone-t3 li::marker {
+	color: var(--accent-3);
+}
+
 
 /* ============================================================
    MODULE : BLOC INFOS T3
