@@ -131,10 +131,10 @@
    ============================================================ */
 
 .vt-section {
-	padding-top: 48px;
+	padding-top: 64px;
 	display: flex;
 	flex-direction: column;
-	gap: 32px;
+	gap: 48px;
 }
 
 .vt-section-header {
