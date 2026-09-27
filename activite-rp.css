@@ -1,43 +1,8 @@
-.act {
-	width: 100%;
-	max-width: 700px;
-}
-
-.act-head {
-	padding: 0 0 32px 0;
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
-	text-align: left;
-}
-
-.act-title-wrap {
-	display: flex;
-	flex-direction: column;
-	gap: 4px;
-}
-
-.act-name {
-	font-family: var(--font-2);
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 1.1;
-	color: var(--text);
-	text-shadow: var(--shadow-text);
+.act-intro {
 	margin: 0;
-}
-
-.act-subtitle {
-	margin: 0;
-	font-size: var(--s-size);
+	font-size: var(--n-size);
 	color: var(--text-muted);
-}
-
-.act-body {
-	display: flex;
-	flex-direction: column;
-	gap: 24px;
-	text-align: left;
+	line-height: var(--line-h);
 }
 
 .act-legend {
@@ -46,79 +11,62 @@
 	flex-wrap: wrap;
 }
 
-.act-leg {
-	text-transform: uppercase;
-	font-size: var(--xs-size);
-	letter-spacing: 1px;
-	padding: 3px 10px;
-	border-radius: 4px;
-}
-
-.act-leg.ok {
-	background: color-mix(in srgb, var(--accent-1) 15%, transparent);
-	color: var(--accent-1);
-}
-
-.act-leg.ko {
-	background: color-mix(in srgb, var(--accent-2) 15%, transparent);
-	color: var(--accent-2);
-}
-
-.act-leg.absence {
-	background: color-mix(in srgb, var(--accent-3) 15%, transparent);
-	color: var(--accent-3);
-}
-
-.act-leg.current {
-	background: color-mix(in srgb, var(--text) 10%, transparent);
-	color: var(--text);
-}
-
-.act-list {
-	position: relative;
-	background: var(--bg-2);
-	border: var(--line);
+.act-table {
 	display: flex;
 	flex-direction: column;
-	padding: 24px;
-	gap: 24px;
-}
-
-.act-list::before,
-.act-list::after {
-	content: "";
-	position: absolute;
-	width: 13px;
-	height: 13px;
-	pointer-events: none;
-}
-
-.act-list::before {
-	top: -1px;
-	left: -1px;
-	border-top: 1px solid var(--accent-3);
-	border-left: 1px solid var(--accent-3);
-}
-
-.act-list::after {
-	bottom: -1px;
-	right: -1px;
-	border-bottom: 1px solid var(--accent-3);
-	border-right: 1px solid var(--accent-3);
 }
 
 .act-year {
-	display: flex;
-	flex-direction: column;
-	gap: 8px;
+	display: block;
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: var(--text);
+	margin-bottom: 4px;
 }
 
-.act-year:not(:last-child) {
-	padding-bottom: 16px;
+.act-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 16px 0;
 	border-bottom: var(--line);
 }
 
-.act-year-head {
+.act-row--last {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.act-row-info {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	font-size: 16px;
+	color: var(--text-muted);
+}
+
+.act-month {
+	font-weight: 800;
+	width: 120px;
+	flex-shrink: 0;
+}
+
+.act-count {
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.act-total {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	padding-top: 16px;
+}
+
+.act-total-lbl {
 	font-weight: 600;
 	font-size: var(--xs-size);
 	letter-spacing: 3px;
@@ -126,71 +74,9 @@
 	color: var(--text-faint);
 }
 
-.act-row {
-	display: grid;
-	grid-template-columns: 140px 1fr auto;
-	align-items: center;
-	gap: 16px;
-	padding: 7px 0;
-}
-
-.act-month {
-	font-size: var(--n-size);
-	color: var(--text);
-}
-
-.act-count {
-	font-size: var(--n-size);
-	color: var(--text-muted);
-	font-style: italic;
-	opacity: 0.7;
-}
-
-.act-badge {
-	font-size: var(--xs-size);
-	letter-spacing: 1px;
-	padding: 3px 10px;
-	border-radius: 4px;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.act-badge.ok {
-	background: color-mix(in srgb, var(--accent-1) 15%, transparent);
-	color: var(--accent-1);
-}
-
-.act-badge.ko {
-	background: color-mix(in srgb, var(--accent-2) 15%, transparent);
-	color: var(--accent-2);
-}
-
-.act-badge.absence {
-	background: color-mix(in srgb, var(--accent-3) 15%, transparent);
-	color: var(--accent-3);
-}
-
-.act-badge.current {
-	background: color-mix(in srgb, var(--text) 10%, transparent);
-	color: var(--text);
-}
-
-.act-total {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	padding-top: 8px;
-}
-
-.act-total-lbl {
-	font-size: var(--xs-size);
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	color: var(--text-faint);
-}
-
 .act-total-val {
 	font-family: var(--font-2);
-	font-size: 22px;
+	font-size: 24px;
 	color: var(--text);
+	text-align: right;
 }
