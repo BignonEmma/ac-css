@@ -106,23 +106,23 @@
    display: inline;
 }
 .fp {
-   width: 811px;
-   max-width: 100%;
-   margin: 0 auto;
-   color: var(--text);
-   box-sizing: border-box;
-   border: 1px solid color-mix(in srgb, var(--clan-color) 50%, transparent);
-   border-radius: 2px;
-   padding: 8px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    color: var(--text);
+    box-sizing: border-box;
+    border: 1px solid color-mix(in srgb, var(--clan-color) 50%, transparent);
+    border-radius: 2px;
+    padding: 8px;
 }
 .fp-stage {
-   position: relative;
-   width: 793px;
-   height: 744px;
-   border: var(--line);
-   border-radius: 2px;
-   overflow: hidden;
-   background: var(--bg);
+    position: relative;
+    width: 100%;
+    height: 744px;
+    border: var(--line);
+    border-radius: 2px;
+    overflow: hidden;
+    background: var(--bg);
 }
 .fp-bg {
    position: absolute;
@@ -624,10 +624,10 @@
    margin-bottom: 40px;
 }
 .fp-id-portrait {
-   position: relative;
-   flex-shrink: 0;
-   width: 260px;
-   height: 330px;
+    position: relative;
+    flex-shrink: 0;
+    width: 230px;
+    height: 330px;
 }
 .fp-id-portrait-outline {
    position: absolute;
@@ -650,11 +650,11 @@
    filter: var(--filter-2);
 }
 .fp-id-mood {
-   position: absolute;
-   left: 193px;
-   top: 257px;
-   width: 130px;
-   height: 126px;
+    position: absolute;
+    left: 170px;
+    top: 257px;
+    width: 130px;
+    height: 130px;
 }
 .fp-id-mood img {
    position: absolute;
@@ -817,8 +817,8 @@
    margin-bottom: 0;
 }
 .fp-section--narrow {
-   width: 566px;
-   max-width: 100%;
+    width: 89%;
+    max-width: 100%;
 }
 .fp-id-quote {
    position: relative;
@@ -1530,4 +1530,103 @@
 
 .fp--scenario .fp-player-star {
 	display: none;
+}
+
+@media (max-width: 1200px) {
+  .fp {
+    width: 700px;
+}
+	
+.fp-id-portrait {
+    width: 200px;
+    height: 300px;
+}
+	
+.fp-id-clan-icon {
+    left: 75px;
+}
+	
+.fp-id-mood {
+    left: 145px;
+    top: 240px;
+    width: 110px;
+    height: 110px;
+}
+	
+.fp-quirks-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+}
+	
+.fp-quirks-photos {
+    width: 470px;
+    height: 100px;
+}
+	
+.fp-quirks-photo--1 {
+    left: 40px;
+    top: 10px;
+    width: 140px;
+    height: 80px;
+}
+	
+.fp-quirks-photo--2 {
+    left: 162px;
+    top: 2px;
+    width: 140px;
+    height: 80px;
+}
+	
+.fp-quirks-photo--3 {
+    left: 280px;
+    top: 10px;
+    width: 140px;
+    height: 80px;
+}
+	
+.fp-player-avatar {
+    width: 130px;
+}
+	
+.fp-player-avatar img {
+    width: 120px;
+    height: 150px;
+}
+	
+.fp-player-star {
+    left: 50px;
+}
+	
+.fp-nav-btn--id {
+    left: 15px;
+    top: 295px;
+}
+	
+.fp-nav-btn--soul {
+    left: 80px;
+    top: 70px;
+}
+	
+.fp-nav-btn--quirks {
+    left: 400px;
+    top: 25px;
+}
+	
+.fp-nav-btn--life {
+    left: 575px;
+    top: 160px;
+}
+	
+.fp-nav-btn--player {
+    left: 520px;
+    top: 373px;
+}
+	
+.fp-clan-badge {
+    bottom: 25px;
+}
 }
