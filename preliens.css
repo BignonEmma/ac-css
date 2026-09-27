@@ -194,16 +194,6 @@
 	gap: 8px;
 }
 
-.pl-link sub {
-	font-family: var(--font);
-	font-weight: 700;
-	font-size: var(--xs-size);
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	color: var(--accent-3);
-	vertical-align: baseline;
-}
-
 .pl-link-text {
 	margin: 0;
 	font-size: var(--n-size);
