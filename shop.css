@@ -1,3 +1,8 @@
+.vt-shop {
+	width: 100%;
+	max-width: 700px;
+}
+
 .shop-list {
 	display: flex;
 	flex-direction: column;
