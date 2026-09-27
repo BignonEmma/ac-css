@@ -196,6 +196,7 @@
 .pl-link sub {
     font-size: var(--s-size);
     letter-spacing: 1px;
+	color: var(--text);
 }
 
 .pl-link-text {
