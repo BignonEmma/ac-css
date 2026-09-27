@@ -69,6 +69,7 @@
 	font-weight: 800;
 	font-size: var(--n-size);
 	color: var(--text-muted);
+	font-variation-settings: var(--font-setting);
 }
 
 .shop-item-qty {
