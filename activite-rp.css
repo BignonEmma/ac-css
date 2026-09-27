@@ -1,0 +1,124 @@
+.act-legend {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+.act-leg {
+	text-transform: uppercase;
+	font-size: var(--xs-size);
+	letter-spacing: 1px;
+	padding: 3px 10px;
+	border-radius: 4px;
+}
+
+.act-leg.ok {
+	background: color-mix(in srgb, var(--accent-1) 15%, transparent);
+	color: var(--accent-1);
+}
+
+.act-leg.ko {
+	background: color-mix(in srgb, var(--accent-2) 15%, transparent);
+	color: var(--accent-2);
+}
+
+.act-leg.absence {
+	background: color-mix(in srgb, var(--accent-3) 15%, transparent);
+	color: var(--accent-3);
+}
+
+.act-leg.current {
+	background: color-mix(in srgb, var(--text) 10%, transparent);
+	color: var(--text);
+}
+
+.act-wrap {
+	width: 100%;
+}
+
+.act-year-head {
+	text-align: left;
+	padding-bottom: 6px;
+	margin-bottom: 2px;
+	border-bottom: var(--line);
+}
+
+.act-row {
+	display: grid;
+	grid-template-columns: 140px 1fr auto;
+	padding: 7px 0;
+	border-bottom: var(--line);
+	align-items: center;
+	text-align: left;
+}
+
+.act-row:last-child {
+	border-bottom: none;
+}
+
+.act-month {
+	font-size: var(--n-size);
+	color: var(--text-muted);
+	text-align: left;
+}
+
+.act-count {
+	font-size: var(--n-size);
+	color: var(--text-muted);
+	opacity: 0.55;
+	font-style: italic;
+	text-align: left;
+}
+
+.act-badge {
+	font-size: var(--xs-size);
+	letter-spacing: 1px;
+	padding: 3px 10px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.act-badge.ok {
+	background: color-mix(in srgb, var(--accent-1) 15%, transparent);
+	color: var(--accent-1);
+}
+
+.act-badge.ko {
+	background: color-mix(in srgb, var(--accent-2) 15%, transparent);
+	color: var(--accent-2);
+}
+
+.act-badge.absence {
+	background: color-mix(in srgb, var(--accent-3) 15%, transparent);
+	color: var(--accent-3);
+}
+
+.act-badge.current {
+	background: color-mix(in srgb, var(--text) 10%, transparent);
+	color: var(--text-muted);
+}
+
+.act-total {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	text-align: left;
+	width: 100%;
+}
+
+.act-total-lbl {
+	font-size: var(--xs-size);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: var(--text-muted);
+	opacity: 0.45;
+}
+
+.act-total-val {
+	font-family: var(--font-2);
+	font-size: 22px;
+	color: var(--text);
+	text-align: right;
+}
