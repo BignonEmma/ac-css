@@ -812,7 +812,6 @@
 }
 .fp--silencis .fp-text--life {
    height: 308px;
-   justify-content: center;
 }
 .fp--silencis .fp-panel[data-panel="life"] .fp-section {
    margin-bottom: 0;
