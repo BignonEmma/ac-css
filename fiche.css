@@ -1528,3 +1528,7 @@
    -webkit-hyphens: auto;
    hyphens: auto;
 }
+
+.fp--scenario .fp-player-star {
+	display: none;
+}
