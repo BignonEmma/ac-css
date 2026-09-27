@@ -13,9 +13,9 @@
 
 .vt-preliens-tw-wrap {
 	flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    gap: 12px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
 }
 
 .vt-preliens-name {
@@ -33,7 +33,7 @@
 	text-shadow: none;
 	vertical-align: baseline;
 	font-size: var(--s-size);
-    letter-spacing: 1px;
+	letter-spacing: 1px;
 	font-family: var(--font);
 }
 
@@ -85,13 +85,19 @@
 
 .vt-preliens-item {
 	display: flex;
-	gap: 24px;
+	flex-direction: column;
+	gap: 16px;
 	padding: 24px;
 	border-bottom: var(--line);
 }
 
 .vt-preliens-item:last-child {
 	border-bottom: none;
+}
+
+.vt-preliens-item-row {
+	display: flex;
+	gap: 24px;
 }
 
 .vt-preliens-photo {
@@ -125,25 +131,6 @@
 	gap: 8px;
 }
 
-.vt-preliens-badge {
-	text-transform: uppercase;
-	font-size: var(--xs-size);
-	letter-spacing: 1px;
-	padding: 3px 8px;
-	border-radius: 2px;
-	font-weight: 700;
-	flex-shrink: 0;
-	color: var(--text);
-}
-
-.vt-preliens-badge.dispo {
-	background: color-mix(in srgb, var(--accent-1) 50%, transparent);
-}
-
-.vt-preliens-badge.pris {
-	background: color-mix(in srgb, var(--accent-3) 50%, transparent);
-}
-
 .vt-preliens-item-title {
 	font-weight: 700;
 	color: var(--text);
@@ -167,39 +154,28 @@
 }
 
 .vt-preliens-linkset {
+	margin: 16px 0 0;
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
-	margin-top: 8px;
 }
- 
-/* une ligne = un lien déjà établi */
+
 .vt-preliens-link {
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
-	padding-top: 16px;
-	border-top: var(--line);
 }
- 
-.vt-preliens-link:first-child {
-	padding-top: 0;
-	border-top: none;
-}
- 
-.vt-preliens-link-names {
+
+.vt-preliens-link sub {
 	font-family: var(--font);
 	font-weight: 700;
-	font-size: var(--n-size);
-	color: var(--text);
-}
- 
-.vt-preliens-link-sep {
+	font-size: var(--xs-size);
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	color: var(--accent-3);
-	font-weight: 400;
-	margin: 0 8px;
+	vertical-align: baseline;
 }
- 
+
 .vt-preliens-link-text {
 	margin: 0;
 	font-size: var(--n-size);
