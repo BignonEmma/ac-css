@@ -1,3 +1,8 @@
+.acti {
+	width: 100%;
+	max-width: 700px;
+}
+
 .act-intro {
 	margin: 0;
 	font-size: var(--n-size);
@@ -64,7 +69,6 @@
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
-	padding-top: 16px;
 }
 
 .act-total-lbl {
