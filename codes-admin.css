@@ -975,6 +975,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	width: 100%;
+	gap: 8px;
 }
 
 .vt-tarot-back-title {
