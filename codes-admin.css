@@ -262,7 +262,6 @@
 	color: var(--text-muted);
 	text-align: justify;
 	hyphens: auto;
-	break-inside: avoid;
 }
 
 .vt-textzone-t2 p:last-child {
