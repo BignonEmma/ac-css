@@ -664,7 +664,7 @@
 	margin: 0;
 	font-size: var(--n-size);
 	line-height: var(--line-h);
-	color: var(--text);
+	color: var(--text-muted);
 	text-align: justify;
 	hyphens: auto;
 }
