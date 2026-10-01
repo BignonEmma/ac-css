@@ -7,7 +7,7 @@
 	max-width: 811px;
 }
 
-vt-admin-post ul {
+.vt-admin-post ul {
 	list-style: disc outside;
 	margin: 0;
 	padding-left: 20px;
@@ -16,12 +16,12 @@ vt-admin-post ul {
 	gap: 8px;
 }
 
-vt-admin-post li {
+.vt-admin-post li {
 	line-height: var(--line-h);
 	color: var(--text-muted);
 }
 
-vt-admin-post li::marker {
+.vt-admin-post li::marker {
 	color: var(--accent-3);
 }
 
