@@ -389,7 +389,7 @@
 .vt-infos-row {
 	display: flex;
 	gap: 24px;
-	align-items: flex-start;
+	align-items: stretch;
 }
 
 .vt-infos-card {
