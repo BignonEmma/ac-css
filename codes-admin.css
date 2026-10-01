@@ -1072,3 +1072,31 @@
 	border: var(--line);
 	border-radius: 2px;
 }
+
+
+/* ============================================================
+   MODULE : SEPARATEUR T3
+   ============================================================ */
+
+.vt-separator-t3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+	padding: 24px 0;
+}
+
+.vt-separator-t3-sm {
+	font-size: 11px;
+	color: var(--text-faint);
+}
+
+.vt-separator-t3-md {
+	font-size: 15px;
+	color: var(--accent-1);
+}
+
+.vt-separator-t3-lg {
+	font-size: 26px;
+	color: var(--accent-2);
+}
