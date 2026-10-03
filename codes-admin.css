@@ -311,7 +311,7 @@
 
 .vt-textzone-t3 p {
 	margin: 0;
-	font-size: var(--l-size);
+	font-size: var(--n-size);
 	line-height: var(--line-h);
 	color: var(--text-muted);
 	text-align: justify;
@@ -709,7 +709,7 @@
 	list-style: none;
 	font-family: var(--font);
 	font-weight: 600;
-	font-size: var(--l-size);
+	font-size: var(--n-size);
 	color: var(--text);
 }
 
