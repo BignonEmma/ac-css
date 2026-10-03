@@ -25,6 +25,15 @@
 	color: var(--accent-3);
 }
 
+.vt-admin-post b,
+.vt-admin-post i,
+.vt-admin-post sub,
+.vt-admin-post qt,
+.vt-admin-post qt2,
+.vt-admin-post em {
+	color: var(--text);
+}
+
 
 /* ============================================================
    ENTÊTE
