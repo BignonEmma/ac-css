@@ -3,6 +3,7 @@
    ============================================================ */
 
 #vt-shop {
+	margin: 0 auto;
 	width: 100%;
 	max-width: 700px;
 	text-align: left;
@@ -134,6 +135,8 @@
    ============================================================ */
 
 .badge-shop-list {
+	margin: 0 auto;
+	max-width: 700px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 	gap: 16px;
