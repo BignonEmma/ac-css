@@ -134,9 +134,12 @@
    SHOP BADGES
    ============================================================ */
 
-.badge-shop-list {
+#vt-shop-badges {
 	margin: 0 auto;
 	max-width: 700px;
+}
+
+.badge-shop-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 	gap: 16px;
