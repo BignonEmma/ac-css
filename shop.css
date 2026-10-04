@@ -133,26 +133,6 @@
    SHOP BADGES
    ============================================================ */
 
-.badge-shop-list {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-	gap: 16px;
-	width: 100%;
-}
- 
-.badge-item {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	gap: 10px;
-	padding: 20px 14px 16px;
-	border: 1px solid var(--border-color, rgba(255,255,255,0.1));
-	border-radius: 12px;
-	background: var(--bg-card, rgba(255,255,255,0.03));
-}
- 
 .badge-item-visual {
 	width: 64px;
 	height: 64px;
