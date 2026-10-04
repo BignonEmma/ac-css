@@ -87,10 +87,11 @@
 }
 
 .shop-item-desc {
-	margin: 0;
-	font-weight: 500;
 	font-size: var(--m-size);
-	color: var(--text-faint);
+    line-height: var(--line-h);
+    margin: 0;
+    font-weight: 500;
+    color: var(--text-faint);
 }
 
 .shop-footer {
@@ -190,11 +191,12 @@
 }
 
 .badge-item-desc {
-	font-size: 12px;
-	line-height: 1.5;
-	color: var(--text-faint);
-	margin: 0;
-	overflow-wrap: anywhere;
+	line-height: var(--line-h);
+    overflow-wrap: anywhere;
+    margin: 0;
+    font-weight: 500;
+    font-size: var(--s-size);
+    color: var(--text-faint);
 }
 
 .badge-item .shop-item-controls {
