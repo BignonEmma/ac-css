@@ -90,7 +90,7 @@
 	margin: 0;
 	font-weight: 500;
 	font-size: var(--m-size);
-	color: var(--text-muted);
+	color: var(--text-faint);
 }
 
 .shop-footer {
