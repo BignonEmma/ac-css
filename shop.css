@@ -1,3 +1,7 @@
+/* ============================================================
+   SHOP CLASSIQUE
+   ============================================================ */
+
 #vt-shop {
 	width: 100%;
 	max-width: 700px;
@@ -122,4 +126,104 @@
 	padding: 0;
 	margin: 0;
 	cursor: pointer;
+}
+
+
+/* ============================================================
+   SHOP BADGES
+   ============================================================ */
+
+.badge-shop-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 16px;
+	width: 100%;
+}
+ 
+.badge-item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	padding: 20px 14px 16px;
+	border: 1px solid var(--border-color, rgba(255,255,255,0.1));
+	border-radius: 12px;
+	background: var(--bg-card, rgba(255,255,255,0.03));
+}
+ 
+.badge-item-visual {
+	width: 64px;
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ 
+.badge-item-visual img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+ 
+.badge-item-body {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+ 
+.badge-item-name {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--accent-2);
+}
+ 
+.badge-item-desc {
+	font-size: 12px;
+	line-height: 1.5;
+	color: var(--text-faint);
+	margin: 0;
+}
+ 
+.badge-item tg1 {
+	font-size: 13px;
+	color: var(--accent-1);
+}
+ 
+.badge-btn-add {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 26px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--border-color, rgba(255,255,255,0.1));
+	border-radius: 50%;
+	background: transparent;
+	color: var(--accent-2);
+	cursor: pointer;
+	transition: background .2s, color .2s, border-color .2s;
+}
+ 
+.badge-btn-add:hover {
+	background: var(--accent-2);
+	color: var(--bg-card, #fff);
+}
+ 
+.badge-item.is-selected {
+	border-color: var(--accent-1);
+}
+ 
+.badge-item.is-selected .badge-btn-add {
+	background: var(--accent-1);
+	border-color: var(--accent-1);
+	color: var(--bg-card, #fff);
+	cursor: default;
+}
+ 
+.badge-item.is-selected .badge-btn-add i::before {
+	content: "\e177";
 }
