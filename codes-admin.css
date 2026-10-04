@@ -26,11 +26,17 @@
 }
 
 .vt-admin-post b,
+.vt-textzone-t1 b,
 .vt-admin-post i,
+.vt-textzone-t1 i,
 .vt-admin-post sub,
+.vt-textzone-t1 sub,
 .vt-admin-post qt,
+.vt-textzone-t1 qt,
 .vt-admin-post qt2,
-.vt-admin-post em {
+.vt-textzone-t1 qt2,
+.vt-admin-post em,
+.vt-textzone-t1 em{
 	color: var(--text);
 }
 
