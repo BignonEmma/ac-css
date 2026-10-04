@@ -156,13 +156,12 @@
 	flex: 1 1 180px;
 	padding: 20px 14px 16px;
 	border: var(--line);
-	border-radius: 12px;
 	background: var(--bg-2);
 }
  
 .badge-item-visual {
-	width: 64px;
-	height: 64px;
+	width: 40px;
+	height: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
