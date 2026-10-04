@@ -90,7 +90,6 @@
 	font-size: var(--m-size);
     line-height: var(--line-h);
     margin: 0;
-    font-weight: 500;
     color: var(--text-faint);
 }
 
@@ -194,7 +193,6 @@
 	line-height: var(--line-h);
     overflow-wrap: anywhere;
     margin: 0;
-    font-weight: 500;
     font-size: var(--s-size);
     color: var(--text-faint);
 }
