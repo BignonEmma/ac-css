@@ -105,6 +105,13 @@
 .fp[data-clan="rhazarym"] .cx-nakarit {
    display: inline;
 }
+
+.fp[data-clan] {
+   --accent-1: var(--clan-color);
+   --accent-2: color-mix(in srgb, var(--clan-color) 70%, var(--text));
+   --accent-3: color-mix(in srgb, var(--clan-color) 50%, var(--text));
+}
+
 .fp {
     width: 100%;
     max-width: 810px;
