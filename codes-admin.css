@@ -266,6 +266,7 @@
 
 .vt-textzone-t1-photo {
 	position: relative;
+	height: -webkit-fill-available;
 	width: 220px;
 	flex-shrink: 0;
 	aspect-ratio: 216.845 / 273.736;
