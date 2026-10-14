@@ -7,6 +7,32 @@
 	max-width: 811px;
 }
 
+.vt-admin-post[data-clan="feu"] {
+	--clan-color: var(--g-feu);
+}
+
+.vt-admin-post[data-clan="eau"] {
+	--clan-color: var(--g-eau);
+}
+
+.vt-admin-post[data-clan="air"] {
+	--clan-color: var(--g-air);
+}
+
+.vt-admin-post[data-clan="nature"] {
+	--clan-color: var(--g-nature);
+}
+
+.vt-admin-post[data-clan="terre"] {
+	--clan-color: var(--g-terre);
+}
+
+.vt-admin-post[data-clan] {
+	--accent-1: var(--clan-color);
+	--accent-2: var(--clan-color);
+	--accent-3: var(--clan-color);
+}
+
 .vt-admin-post ul {
 	list-style: disc outside;
 	margin: 0;
