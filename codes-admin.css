@@ -864,7 +864,6 @@
 	margin: 0;
 	opacity: 0;
 	cursor: pointer;
-	z-index: 2;
 }
 
 .vt-tarot-inner {
@@ -875,6 +874,7 @@
 	height: 100%;
 	transform-style: preserve-3d;
 	transition: transform 0.6s;
+	pointer-events: none;
 }
 
 .vt-tarot-toggle:checked ~ .vt-tarot-inner {
@@ -1059,6 +1059,7 @@
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: var(--accent-1);
+	pointer-events: auto;
 }
 
 
