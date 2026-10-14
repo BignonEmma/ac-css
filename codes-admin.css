@@ -1040,10 +1040,11 @@
 }
 
 .vt-tarot-back-text {
-	margin: 0;
-	font-size: var(--n-size);
-	line-height: var(--line-h);
-	color: var(--text);
+    margin: 0;
+    font-size: var(--m-size);
+    line-height: var(--line-h);
+    color: var(--text-muted);
+    font-weight: 500;
 }
 
 .vt-tarot-back-foot {
