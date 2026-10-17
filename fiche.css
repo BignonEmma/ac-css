@@ -1539,6 +1539,17 @@
 	display: none;
 }
 
+.fp-soul-note-head,
+.fp-player-credits-head {
+   flex-shrink: 0;
+}
+.fp-soul-note-text,
+.fp-player-credits-text {
+   min-height: 0;
+   overflow-y: auto;
+   padding-right: 8px;
+}
+
 @media (max-width: 1200px) {
   .fp {
     max-width: 700px;
