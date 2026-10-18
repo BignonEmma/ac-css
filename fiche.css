@@ -788,7 +788,7 @@
    text-align: justify;
    -webkit-hyphens: auto;
    hyphens: auto;
-   max-height: 144px;
+   max-height: 160px;
    overflow-y: auto;
    display: flex;
    flex-direction: column;
