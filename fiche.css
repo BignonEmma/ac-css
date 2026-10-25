@@ -343,23 +343,12 @@
    font-variation-settings: var(--font-setting);
 }
 
-/* Fiche scénario sans clan : la couleur principale est l'accent 1 du forum, le badge d'accueil affiche "Scénario" */
+/* Fiche scénario sans clan : la couleur principale est l'accent 1 du forum, le badge de clan est masqué */
 .fp--scenario:is(:not([data-clan]), [data-clan=""]) {
    --clan-color: var(--accent-1);
 }
-.fp--scenario:is(:not([data-clan]), [data-clan=""]) .fp-clan-name,
-.fp--scenario:is(:not([data-clan]), [data-clan=""]) .fp-clan-icon,
-.fp--scenario:is(:not([data-clan]), [data-clan=""]) .fp-clan-nation {
+.fp--scenario:is(:not([data-clan]), [data-clan=""]) .fp-clan-badge {
    display: none;
-}
-.fp--scenario:is(:not([data-clan]), [data-clan=""]) .fp-clan-badge::before {
-   content: "Scénario";
-   font-weight: 800;
-   font-size: 10px;
-   letter-spacing: 3px;
-   text-transform: uppercase;
-   color: var(--text-muted);
-   font-variation-settings: var(--font-setting);
 }
 .fp-nav-btn {
    position: absolute;
